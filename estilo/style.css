@@ -18,7 +18,7 @@ main#comeco {
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    max-width: 400px;
+    max-width: 800px;
     padding: 30px 15px;
     border-radius: 15px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
