@@ -58,8 +58,9 @@ main#comeco > p {
 
 section {
     padding: 30px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    height: 55vh;
     line-height: 9vh;
     font-family: var(--fonte-txt);
     font-size: 1em;
