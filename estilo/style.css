@@ -62,7 +62,7 @@ section {
     padding-bottom: 20vh;
     line-height: 9vh;
     font-family: var(--fonte-txt);
-    font-size: 1.3em;
+    font-size: 1em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
 }
 
@@ -72,7 +72,7 @@ section.normal {
 
 section.imagem {
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: cover;
     background-attachment: fixed;
     color: white;
@@ -97,8 +97,8 @@ section.imagem > p {
 input#botao {
     position: absolute;
     left: 50%;
-    top: 65%;
-    transform: translate(-50%, -65%);
+    top: 70%;
+    transform: translate(-50%, -70%);
     padding: 10px 20px;
     border-radius: 30px;
     background-color: rgb(17, 93, 168);
