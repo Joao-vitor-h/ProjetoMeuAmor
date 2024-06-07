@@ -12,6 +12,18 @@ body {
     height: 99vh;
 }
 
+header {
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
 main#comeco {
     position: absolute;
     left: 50%;
@@ -31,6 +43,39 @@ main#comeco > h1 {
 
 main#comeco > p {
     line-height: 25px;
+}
+
+section {
+    padding: 30px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    line-height: 7vh;
+    width: 100vw;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+section#img1 {
+    background-image: url("../imagens/gato.jpg");
+}
+
+section#img2 {
+    background-image: url("../imagens/txt.jpg");
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.267);
+    display: inline-block;
 }
 
 input#botao {
