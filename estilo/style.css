@@ -16,8 +16,8 @@ body {
     background-color: lightcoral;
     font-family: var(--font-padrao);
     position: relative;
-    width: 99vw;
-    height: 99vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -88,7 +88,8 @@ section.normal {
 }
 
 section.imagem {
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: left top;
     background-size: cover;
     background-attachment: fixed;
     color: white;
