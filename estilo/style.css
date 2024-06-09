@@ -56,6 +56,22 @@ main#comeco > p {
     line-height: 25px;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+a.ref {
+    color: white;
+}
+
+a.ref:hover{
+    color: darkgrey;
+}
+
 section {
     padding: 30px;
     padding-top: 20vh;
@@ -73,7 +89,7 @@ section.normal {
 
 section.imagem {
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
