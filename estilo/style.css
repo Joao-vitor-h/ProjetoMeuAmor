@@ -92,7 +92,7 @@ section {
     line-height: 9vh;
     font-family: var(--fonte-txt);
     font-size: 1.2em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.247);
 }
 
 section.normal {
@@ -141,12 +141,12 @@ input#botao2 {
 input.bot {
     padding: 10px 20px;
     border-radius: 30px;
-    background-color: rgb(17, 93, 168);
+    background-color: black;
     color: white;
 }
 
 input.bot:hover {
-    background-color: darkslategrey;
+    background-color: #115da8;
 }
 
 input.bot:active {
