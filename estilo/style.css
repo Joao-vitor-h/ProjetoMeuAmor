@@ -17,7 +17,7 @@ body {
     font-family: var(--font-padrao);
     position: relative;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
 }
 
 body#pag1 {
@@ -64,6 +64,10 @@ main#comeco > p {
     line-height: 25px;
 }
 
+span {
+    color: red;
+}
+
 a#p1 {
     color: black;
 }
@@ -87,7 +91,7 @@ section {
     height: 55vh;
     line-height: 9vh;
     font-family: var(--fonte-txt);
-    font-size: 1em;
+    font-size: 1.2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
 }
 
@@ -112,7 +116,7 @@ section#img2 {
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.473);
     display: inline-block;
     padding: 10px;
     border-radius: 15px;
