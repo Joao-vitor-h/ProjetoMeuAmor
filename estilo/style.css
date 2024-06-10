@@ -17,7 +17,15 @@ body {
     font-family: var(--font-padrao);
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
+}
+
+body#pag1 {
+    background-image: url("../imagens/principal.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -38,8 +46,8 @@ header > p {
 main#comeco {
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    transform: translate(-50%, -20%);
     background-color: white;
     width: 70vw;
     padding: 30px 15px;
@@ -56,12 +64,12 @@ main#comeco > p {
     line-height: 25px;
 }
 
-a {
+a#p1 {
     color: black;
 }
 
-a:hover {
-    color: darkgrey;
+a#p1:hover {
+    color: dimgray;
 }
 
 a.ref {
@@ -69,7 +77,7 @@ a.ref {
 }
 
 a.ref:hover{
-    color: darkgrey;
+    color: dimgray;
 }
 
 section {
@@ -111,29 +119,49 @@ section.imagem > p {
     border-radius: 15px;
 }
 
-input#botao {
+section > p > a > input {
+    margin-top: 50px;
+}
+
+input#botao1 {
     position: absolute;
-    left: 50%;
+    left: 49.5%;
     top: 70%;
     transform: translate(-50%, -70%);
+}
+
+input#botao2 {
+    float: left;
+}
+
+input.bot {
     padding: 10px 20px;
     border-radius: 30px;
     background-color: rgb(17, 93, 168);
     color: white;
 }
 
-input#botao:hover {
+input.bot:hover {
     background-color: darkslategrey;
 }
 
-input#botao:active {
+input.bot:active {
     background-color: white;
     color: black;
 }
 
 footer {
     background-color: black;
-    color: white;
+    color: dimgray;
     text-align: center;
-    padding: 18px;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+footer > p > a {
+    color: dimgray;
+}
+
+footer > p > a:hover {
+    color: white;
 }
