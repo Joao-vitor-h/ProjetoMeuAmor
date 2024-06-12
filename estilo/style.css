@@ -28,13 +28,21 @@ body#pag1 {
     background-attachment: fixed;
 }
 
+body#pag3 {
+    background-image: url("../imagens/final.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header {
     text-align: center;
     background-color: black;
     color: white;
 }
 
-header > h1 {
+header > a > h1 {
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -43,7 +51,7 @@ header > p {
     padding-bottom: 50px;
 }
 
-main#comeco {
+main.comeco {
     position: absolute;
     left: 50%;
     top: 20%;
@@ -56,17 +64,32 @@ main#comeco {
     text-align: center;
 }
 
-main#comeco > h1 {
+main.comeco > h1 {
     margin-bottom: 7px;
     font-size: 1.7em;
 }
 
-main#comeco > p {
+main.comeco > p {
     line-height: 25px;
 }
 
 span {
     color: red;
+    font-weight: bolder;
+}
+
+main#final {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+}
+
+a#cabeca {
+    color: white;
+    text-decoration: none;
 }
 
 a#p1 {
@@ -144,6 +167,17 @@ input.bot {
 
 input.bot:active {
     background-color: #115da8;
+}
+
+a > input#botao3 {
+    float: right;
+}
+
+input#botao4 {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
 }
 
 footer {
